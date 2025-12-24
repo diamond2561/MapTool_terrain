@@ -1,0 +1,40 @@
+# Main Window
+TITLE = "OpenGS - Map Tool"
+WINDOW_SIZE_WIDTH = 1100
+WINDOW_SIZE_HEIGHT = 950
+VERSION = "0.1.5"
+
+# Province slider
+LAND_PROVINCES_MIN = 100
+LAND_PROVINCES_MAX = 10000
+LAND_PROVINCES_DEFAULT = 3000
+LAND_PROVINCES_TICK = 200
+LAND_PROVINCES_STEP = 100
+
+# Ocean slider
+OCEAN_PROVINCES_MIN = 10
+OCEAN_PROVINCES_MAX = 1000
+OCEAN_PROVINCES_DEFAULT = 300
+OCEAN_PROVINCES_TICK = 20
+OCEAN_PROVINCES_STEP = 10
+
+# Land Map Color Code
+OCEAN_COLOR = (5, 20, 18)  # RGB
+
+# Boundary Map Color Code
+BOUNDARY_COLOR = (0, 0, 0)
+
+
+# Image Display
+MAX_IMAGE_PIXELS = 300000000
+DISPLAY_SIZE_WIDTH = 1050
+DISPLAY_SIZE_HEIGHT = 900
+
+# Landscape colors (R, G, B) : landscape type
+TERRAIN_COLORS = {
+    (255, 255, 0): "Desert",
+    (0, 255, 0): "Forest",
+    (255, 0, 0): "Jungle",
+    (0, 0, 255): "Water",
+    # Add or change other colors on the map
+}
